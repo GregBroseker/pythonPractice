@@ -63,3 +63,7 @@ if accessories[-1]:
     print('The total price of all accessories is: ', sum)
 accessory_comission = sum * .10
 print('The total comission earned on these accessories is', accessory_comission)
+
+device_care = input("How many device cares have you sold this week?")
+device_care_commission = int(device_care) * 5
+print("You've made $",device_care_commission, 'in device care commissions this week!')
